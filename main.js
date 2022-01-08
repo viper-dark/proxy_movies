@@ -8,7 +8,7 @@ cors_proxy
   .createServer({
     originWhitelist: [], // Allow all origins
     requireHeader: ["origin", "x-requested-with"],
-    removeHeaders: ["location_refereer", "cookie2"],
+    removeHeaders: ["cookie2"],
     /*  setHeaders: {
       Referer:
         "https://ma5.vicious-cdn.football/radian.html?live=live&channel=17wgf7u9am8k_HD",
